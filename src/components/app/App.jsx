@@ -15,9 +15,8 @@ function App() {
           </ErrorBoundary>
         </Suspense>
       </div>
-      <div>
-      
-      </div>
+      {/* <div dangerouslySetInnerHTML={{ __html: html }}>
+      </div> */}
     </>
   );
 }

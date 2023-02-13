@@ -16,3 +16,6 @@ is based on Flux concept
 ## Vue -> Vuex
 
 ## react-redux
+
+## Securing React js application
+https://www.freecodecamp.org/news/best-practices-for-security-of-your-react-js-application/
