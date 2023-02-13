@@ -14,7 +14,7 @@ export const Home = () => {
 
     useEffect(() => {
         dispatch(fetchMovieDetailById(157336));
-    }, []);
+    }, [dispatch]);
 
     const content = (
         <ErrorBoundary>
