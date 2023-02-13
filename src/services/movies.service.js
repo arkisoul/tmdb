@@ -1,6 +1,8 @@
 import axios from './request.service';
 
-const API_KEY = '421e0bdaf5f724e1114905f6648ba94e';
+import { Enviornment } from '../enviornment';
+
+const API_KEY = Enviornment.tmdbAPIKey;
 
 export const searchMovies = async (query) => {
     try {

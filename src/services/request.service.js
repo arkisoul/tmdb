@@ -1,11 +1,13 @@
 import axios from "axios";
 
+import { Enviornment } from "../enviornment";
+
 const axiosInstance = axios.create({
-    baseURL: `https://api.themoviedb.org/3`,
+    baseURL: Enviornment.tmdbAPIUrl,
 })
 
 export const axiosOwnServer = axios.create({
-    baseURL: `http://localhost:4000`
+    baseURL: Enviornment.ownAPIUrl
 });
 
 axiosOwnServer.interceptors.request.use((config) => {
